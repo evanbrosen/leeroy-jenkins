@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "name": "Vanessa Central",
+      "sf_username": "vanessa.central@storm-ae9ed33423fa8e.com",
+      "sf_id": "005g7000002r3BbAAI",
+      "title": "Sales Representative",
+      "role": "RVP Central",
+      "profile": "SDO-Sales",
+      "owns": [
+        "Opportunity",
+        "Account",
+        "Lead",
+        "Contract"
+      ]
+    },
+    {
+      "name": "Cindy Central",
+      "sf_username": "cindy.central@storm-ae9ed33423fa8e.com",
+      "sf_id": "005g7000002r3BXAAY",
+      "title": "Sales Representative",
+      "role": "Central Sales",
+      "profile": "SDO-Sales",
+      "owns": [
+        "Opportunity",
+        "Lead"
+      ]
+    },
+    {
+      "name": "Vance Channel",
+      "sf_username": "vancechannel042026183530930642.qjphoykkawkz@salesforce.com",
+      "sf_id": "005g7000002r3BdAAI",
+      "title": "VP of Channel Sales",
+      "role": "Director of Channel Sales",
+      "profile": "System Administrator",
+      "owns": [
+        "Opportunity",
+        "Account"
+      ]
+    },
+    {
+      "name": "Valerie East",
+      "sf_username": "valerie.east@storm-ae9ed33423fa8e.com",
+      "sf_id": "005g7000002r3BaAAI",
+      "title": "Sales Representative",
+      "role": "RVP East",
+      "profile": "SDO-Sales",
+      "owns": [
+        "Opportunity",
+        "Account",
+        "Lead",
+        "Contract"
+      ]
+    },
+    {
+      "name": "Ely East",
+      "sf_username": "ely.east@storm-ae9ed33423fa8e.com",
+      "sf_id": "005g7000002r3BVAAY",
+      "title": "Sales Representative",
+      "role": "East Sales",
+      "profile": "SDO-Sales",
+      "owns": [
+        "Opportunity",
+        "Lead"
+      ]
+    },
+    {
+      "name": "Elliott Executive",
+      "sf_username": "elliottexecutive042026183530930642.kfufncoemiii@salesforce.com",
+      "sf_id": "005g7000002r3BZAAY",
+      "title": "SVP Sales",
+      "role": "VP of Sales",
+      "profile": "System Administrator",
+      "owns": [
+        "Opportunity",
+        "Account",
+        "Contract"
+      ]
+    },
+    {
+      "name": "Sue Marketing",
+      "sf_username": "suemarketing042026183530930642.vbkvrxkjosjn@salesforce.com",
+      "sf_id": "005g7000002r3CeAAI",
+      "title": "Marketing Director",
+      "role": "VP of Marketing",
+      "profile": "System Administrator",
+      "owns": [
+        "Campaign",
+        "Lead"
+      ]
+    },
+    {
+      "name": "Alf Operations",
+      "sf_username": "alfoperations042026183530930642.rjqgbw93vfiw@salesforce.com",
+      "sf_id": "005g7000002r3CXAAY",
+      "title": "SVP Customer Service",
+      "role": "VP of Operations",
+      "profile": "System Administrator",
+      "owns": [
+        "Case",
+        "Account"
+      ]
+    },
+    {
+      "name": "Alan Reed",
+      "sf_username": "alanreed042026183530930642.8jprsdyrweip@salesforce.com",
+      "sf_id": "005g7000002r3CgAAI",
+      "title": "System Admin",
+      "role": "Central Sales",
+      "profile": "System Administrator",
+      "owns": [
+        "Opportunity",
+        "Lead"
+      ]
+    },
+    {
+      "name": "Connie Ruiz",
+      "sf_username": "connieruiz.kqejtzg0p5vi@salesforce.com",
+      "sf_id": "005g7000002r3E5AAI",
+      "title": "Senior Service Training Representative",
+      "role": "",
+      "profile": "SDO-Scheduler-Admin",
+      "owns": [
+        "Case"
+      ]
+    },
+    {
+      "name": "Jay Service",
+      "sf_username": "jay.service@storm-ae9ed33423fa8e.com",
+      "sf_id": "005g7000002r3CcAAI",
+      "title": "Customer Support Rep",
+      "role": "Customer Service Agent",
+      "profile": "SDO-Service",
+      "owns": [
+        "Case"
+      ]
+    },
+    {
+      "name": "Tim Service",
+      "sf_username": "tim.service@storm-ae9ed33423fa8e.com",
+      "sf_id": "005g7000002r3CZAAY",
+      "title": "Customer Service Agent",
+      "role": "Customer Service Agent",
+      "profile": "SDO-Service",
+      "owns": [
+        "Case"
+      ]
+    },
+    {
+      "name": "Steven Service",
+      "sf_username": "steven.service@storm-ae9ed33423fa8e.com",
+      "sf_id": "005g7000002r3CYAAY",
+      "title": "Director of Customer Service",
+      "role": "VP of Customer Service",
+      "profile": "SDO-Service",
+      "owns": [
+        "Case",
+        "Account"
+      ]
+    },
+    {
+      "name": "Linda Service",
+      "sf_username": "linda.service@storm-ae9ed33423fa8e.com",
+      "sf_id": "005g7000002r3CbAAI",
+      "title": "Customer Support Rep",
+      "role": "Customer Service Agent",
+      "profile": "SDO-Service",
+      "owns": [
+        "Case"
+      ]
+    },
+    {
+      "name": "Brenda Service",
+      "sf_username": "brenda.service@storm-ae9ed33423fa8e.com",
+      "sf_id": "005g7000002r3CdAAI",
+      "title": "Customer Support Rep",
+      "role": "Customer Service Agent",
+      "profile": "SDO-Service",
+      "owns": [
+        "Case"
+      ]
+    },
+    {
+      "name": "Mark Watson",
+      "sf_username": "markwatson042026183530930642.mnkrkqgci5za@salesforce.com",
+      "sf_id": "005g7000002r3CfAAI",
+      "title": "Chief Information Officer",
+      "role": "CEO",
+      "profile": "System Administrator",
+      "owns": [
+        "Account"
+      ]
+    },
+    {
+      "name": "Vince West",
+      "sf_username": "vince.west@storm-ae9ed33423fa8e.com",
+      "sf_id": "005g7000002r3BWAAY",
+      "title": "Sales Representative",
+      "role": "RVP West",
+      "profile": "SDO-Sales",
+      "owns": [
+        "Opportunity",
+        "Account",
+        "Lead",
+        "Contract"
+      ]
+    }
+  ]
+}
