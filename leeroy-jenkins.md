@@ -18,24 +18,63 @@ Work through the phases below in order. Be conversational and concise at each st
 
 ## Phase 1 — Gather Inputs
 
-Ask the user (in a single message):
+Collect inputs one question at a time. Wait for each answer before asking the next.
 
-1. **Customer name** and **website URL**
-2. **Any known context** — e.g. "they're replacing ServiceNow", "focus on sales ops", "mid-market manufacturing company". If none, say so.
-3. **Which Slack + Salesforce use cases** are being demoed (let them pick multiple):
-   - Sales Cloud (Opportunities, Leads, Forecasts, Contracts)
-   - Service Cloud (Cases, Entitlements, SLAs)
-   - Commerce / Orders
-   - Marketing / Campaigns
-   - Something custom (ask them to describe)
-4. **Hero Mode**: "Do you want Hero Mode? In Hero Mode, every record — accounts, contacts, opps, cases, everything — gets assigned to you instead of the demo users. Useful if you're demoing solo and want everything under your name. (y/n)"
-5. **Customer-provided files**: "Do you have any files from the customer — like a deck, org chart, product doc, or pricing sheet? If so, paste the folder path. Otherwise press enter to skip."
+### Step 1 — Customer
+Ask:
+> "What's the customer name and website URL?"
 
-Store all five inputs. Create the customer slug now: lowercase, hyphens for spaces (e.g. "Acme Corp" → "acme-corp"). Create the output directory:
+Store `customer_name` and `website_url`.
+
+### Step 2 — Context
+Ask:
+> "Any context I should know going in? For example: 'replacing ServiceNow', 'focus on field sales', 'mid-market manufacturing'. Press enter to skip."
+
+Store `context` (may be blank).
+
+### Step 3 — Use cases
+Use the `AskUserQuestion` tool with `multiSelect: true`:
+
+- **Question**: "Which use cases are we demoing?"
+- **Options**:
+  - Sales Cloud — Opportunities, Contracts, Forecasts
+  - Service Cloud — Cases, SLAs, Entitlements
+  - Commerce / Orders
+  - Marketing / Campaigns
+  - Something custom — I'll describe it
+
+If "Something custom" is selected, follow up:
+> "Describe the custom use case."
+
+Store `use_cases` as a list.
+
+### Step 4 — Hero Mode
+Use the `AskUserQuestion` tool (single select):
+
+- **Question**: "Hero Mode — assign all records to you?"
+- **Options**:
+  - Yes — everything under my name *(recommended for solo demos)*
+  - No — distribute across the demo users in users.json
+
+Store `hero_mode` as true/false.
+
+### Step 5 — Customer-provided files
+Ask:
+> "Do you have any files from the customer — deck, org chart, pricing doc, anything they sent you? Paste the folder path, or press enter to skip."
+
+Store `context_folder` (may be blank/null).
+
+---
+
+### After all 5 steps
+
+Create the customer slug: lowercase, hyphens for spaces (e.g. "Acme Corp" → "acme-corp"). Create the output directory:
 
 ```bash
 mkdir -p ~/claude-projects/leeroy-jenkins/customers/<slug>
 ```
+
+Confirm back to the SE in one line — e.g. *"Got it — researching **Xometry** for Sales Cloud + Service Cloud. Starting research now..."* — then proceed to Phase 2.
 
 ---
 
